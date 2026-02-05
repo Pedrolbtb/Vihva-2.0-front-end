@@ -11,8 +11,8 @@ module.exports = {
         accent: '#60AD9C',
       },
       fontFamily: {
-        cloudsoft: ['Cloudsoft', 'sans-serif'],
-        peanutButter: ['Peanut Butter', 'sans-serif'],
+        cloudsoft: ['Cloudsoft-Bold', 'sans-serif'],
+        peanutButter: ['PeanutButter', 'sans-serif'],
       },
     },
   },

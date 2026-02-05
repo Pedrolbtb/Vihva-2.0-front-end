@@ -23,8 +23,8 @@ export const VButton: React.FC<VButtonProps> = ({
     <Pressable
       disabled={disabled}
       onPress={onClick}
-      className={`${bgClasses[bgColor]} h-14 w-56 items-center justify-center rounded-full border-2 border-primary shadow-lg shadow-black`}>
-      <Text className={`${colorClasses[color]} text-center`}>{content}</Text>
+      className={`${bgClasses[bgColor]} h-14 w-64 items-center justify-center rounded-3xl border-2 border-primary shadow-lg shadow-black`}>
+      <Text className={`${colorClasses[color]} text-center font-cloudsoft text-xl`}>{content}</Text>
     </Pressable>
   );
 };

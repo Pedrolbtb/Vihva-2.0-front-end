@@ -10,11 +10,11 @@ interface VTitleProps {
 }
 
 export const VTitle: React.FC<VTitleProps> = ({ title, subtitle, color, alignment }) => {
-  const titleClass = `${colorClasses[color]} text-3xl font-bold ${alignmentClasses[alignment]}`;
+  const titleClass = `${colorClasses[color]} text-7xl  ${alignmentClasses[alignment]}`;
 
   return (
     <View className="gap-1">
-      <Text className={titleClass}>{title}</Text>
+      <Text className={`${titleClass} font-peanutButter`}>{title}</Text>
 
       {subtitle && (
         <Text className={`text-sm text-slate-700 ${alignmentClasses[alignment]}`}>{subtitle}</Text>
